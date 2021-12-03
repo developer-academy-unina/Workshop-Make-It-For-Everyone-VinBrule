@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Lemon",
+        "image": "julia-zolotova-2aFE-gUcCvc-unsplash-edited",
+        "emoji": "🍋",
+        "quantity": "1 lemon, zest"
+
+    },
+    {
+        "id": 2,
+        "name": "Orange",
+        "image": "xiaolong-wong-nibgG33H0F8-unsplash-edited",
+        "emoji": "🍊",
+        "quantity": "1 orange, zest and juice (use a peeler to remove strips of the zest and then juice)"
+    },
+    {
+        "id": 3,
+        "name": "Honey",
+        "image": "allen-lee-YYco8GHHleA-unsplash-edited",
+        "emoji": "🍯",
+        "quantity": "200g honey (or sugar)"
+
+    },
+    {
+        "id": 4,
+        "name": "Wine",
+        "image": "markus-spiske-kseLkCEnpvU-unsplash-edited",
+        "emoji": "🍷",
+        "quantity": " bottle red wine (a full-bodied wine would work well)"
+    }
+]

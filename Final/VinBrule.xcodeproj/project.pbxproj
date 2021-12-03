@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E44325D2759054F00232A3C /* VinBruleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E44325C2759054F00232A3C /* VinBruleApp.swift */; };
+		7E44325F2759054F00232A3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E44325E2759054F00232A3C /* ContentView.swift */; };
+		7E4432612759055100232A3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4432602759055100232A3C /* Assets.xcassets */; };
+		7E4432642759055100232A3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4432632759055100232A3C /* Preview Assets.xcassets */; };
+		7E44326B2759076000232A3C /* RecipeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E44326A2759076000232A3C /* RecipeStore.swift */; };
+		7E44326F2759098300232A3C /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E44326D2759098300232A3C /* Ingredient.swift */; };
+		7E443274275909D700232A3C /* VinBrule.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E443272275909D700232A3C /* VinBrule.json */; };
+		7E44327827590D6E00232A3C /* IngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E44327727590D6E00232A3C /* IngredientView.swift */; };
+		7E44327A275917F600232A3C /* IngredientGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E443279275917F600232A3C /* IngredientGrid.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E4432592759054F00232A3C /* Vin Brulé.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vin Brulé.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E44325C2759054F00232A3C /* VinBruleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinBruleApp.swift; sourceTree = "<group>"; };
+		7E44325E2759054F00232A3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E4432602759055100232A3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E4432632759055100232A3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E44326A2759076000232A3C /* RecipeStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeStore.swift; sourceTree = "<group>"; };
+		7E44326D2759098300232A3C /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		7E443272275909D700232A3C /* VinBrule.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VinBrule.json; sourceTree = "<group>"; };
+		7E44327727590D6E00232A3C /* IngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientView.swift; sourceTree = "<group>"; };
+		7E443279275917F600232A3C /* IngredientGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientGrid.swift; sourceTree = "<group>"; };
+		7E443286275A260600232A3C /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = SOURCE_ROOT; };
+		7E443287275A260600232A3C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = SOURCE_ROOT; };
+		7E443288275A260600232A3C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E4432562759054F00232A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E4432502759054F00232A3C = {
+			isa = PBXGroup;
+			children = (
+				7E443286275A260600232A3C /* CHANGELOG.md */,
+				7E443287275A260600232A3C /* LICENSE */,
+				7E443288275A260600232A3C /* README.md */,
+				7E44325B2759054F00232A3C /* VinBrule */,
+				7E44325A2759054F00232A3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E44325A2759054F00232A3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E4432592759054F00232A3C /* Vin Brulé.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E44325B2759054F00232A3C /* VinBrule */ = {
+			isa = PBXGroup;
+			children = (
+				7E44325C2759054F00232A3C /* VinBruleApp.swift */,
+				7E4432702759099800232A3C /* Model */,
+				7E44327627590A6800232A3C /* Views */,
+				7E443271275909D700232A3C /* Resourses */,
+				7E4432602759055100232A3C /* Assets.xcassets */,
+				7E4432622759055100232A3C /* Preview Content */,
+			);
+			path = VinBrule;
+			sourceTree = "<group>";
+		};
+		7E4432622759055100232A3C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7E4432632759055100232A3C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7E4432702759099800232A3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E44326D2759098300232A3C /* Ingredient.swift */,
+				7E44326A2759076000232A3C /* RecipeStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7E443271275909D700232A3C /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				7E443272275909D700232A3C /* VinBrule.json */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		7E44327627590A6800232A3C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7E44325E2759054F00232A3C /* ContentView.swift */,
+				7E443279275917F600232A3C /* IngredientGrid.swift */,
+				7E44327727590D6E00232A3C /* IngredientView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E4432582759054F00232A3C /* VinBrule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4432672759055100232A3C /* Build configuration list for PBXNativeTarget "VinBrule" */;
+			buildPhases = (
+				7E4432552759054F00232A3C /* Sources */,
+				7E4432562759054F00232A3C /* Frameworks */,
+				7E4432572759054F00232A3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VinBrule;
+			productName = VinBrule;
+			productReference = 7E4432592759054F00232A3C /* Vin Brulé.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E4432512759054F00232A3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					7E4432582759054F00232A3C = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 7E4432542759054F00232A3C /* Build configuration list for PBXProject "VinBrule" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E4432502759054F00232A3C;
+			productRefGroup = 7E44325A2759054F00232A3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E4432582759054F00232A3C /* VinBrule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E4432572759054F00232A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E443274275909D700232A3C /* VinBrule.json in Resources */,
+				7E4432642759055100232A3C /* Preview Assets.xcassets in Resources */,
+				7E4432612759055100232A3C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E4432552759054F00232A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E44325F2759054F00232A3C /* ContentView.swift in Sources */,
+				7E44326F2759098300232A3C /* Ingredient.swift in Sources */,
+				7E44327A275917F600232A3C /* IngredientGrid.swift in Sources */,
+				7E44325D2759054F00232A3C /* VinBruleApp.swift in Sources */,
+				7E44327827590D6E00232A3C /* IngredientView.swift in Sources */,
+				7E44326B2759076000232A3C /* RecipeStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7E4432652759055100232A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E4432662759055100232A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E4432682759055100232A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VinBrule/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.VinBrule;
+				PRODUCT_NAME = "Vin Brulé";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7E4432692759055100232A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VinBrule/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.VinBrule;
+				PRODUCT_NAME = "Vin Brulé";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E4432542759054F00232A3C /* Build configuration list for PBXProject "VinBrule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4432652759055100232A3C /* Debug */,
+				7E4432662759055100232A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E4432672759055100232A3C /* Build configuration list for PBXNativeTarget "VinBrule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4432682759055100232A3C /* Debug */,
+				7E4432692759055100232A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E4432512759054F00232A3C /* Project object */;
+}
